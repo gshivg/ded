@@ -150,7 +150,7 @@ int main(int argc, char **argv)
         glEnable(GL_DEBUG_OUTPUT);
         glDebugMessageCallback(MessageCallback, 0);
     } else {
-        fprintf(stderr, "WARNING: GLEW_ARB_debug_output is not available");
+        fprintf(stderr, "WARNING: GLEW_ARB_debug_output is not available\n");
     }
 
     simple_renderer_init(&sr);
